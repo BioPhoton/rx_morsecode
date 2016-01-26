@@ -1,0 +1,28 @@
+{
+  "name": "ng-morscode-rx",
+  "version": "0.0.1",
+  "authors": [
+    "Michael Hladky <michael@hladky.at>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.8",
+    "angular-bootstrap": "~0.13.2",
+    "angular-ui-router": "0.2.13",
+    "bootstrap-sass-official": "~3.3.5",
+    "fontawesome": "~4.4.0",
+    "rxjs": "~4.0.7",
+    "rx-angular": "angular-rx#~1.0.4"
+  },
+  "resolutions": {
+    "angular": "1.4.8"
+  }
+}

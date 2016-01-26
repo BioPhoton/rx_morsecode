@@ -1,0 +1,29 @@
+<nav id="main-nav-wrapper" class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+    	
+      <button type="button" class="navbar-toggle" ng-click="app.navCollapsed = !app.navCollapsed">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">.-. -..-</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse" ng-class="!app.navCollapsed && 'in'">
+    
+      <ul class="nav navbar-nav">
+        <li ui-sref-active-eq="active">
+         	<a ui-sref="app.decode">-.. . -.-. --- -.. .</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+<div id="main-contant-wrapper">
+	<div class="container">
+		<!-- THIS IS WHERE WE WILL INJECT OUR PAGE CONTENT ============================== -->
+		<div ui-view></div>
+	</div>
+</div>

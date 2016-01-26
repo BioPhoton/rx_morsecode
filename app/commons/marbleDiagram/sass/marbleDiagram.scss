@@ -1,0 +1,39 @@
+$marble-width: 40px !default;
+$marble-h-margin: 1px !default;
+
+.marble-diagram {
+  background-color:#efefef;
+
+  .title{
+    font-size:10px;
+  }
+
+  &.start-offset-1 .marbles{
+    padding-left:#{(15px + $marble-h-margin + $marble-width)};
+  }
+
+  .marbles {
+
+    .marble {
+      overflow:hidden;
+      width:auto;
+      padding:0px 5px;
+
+      text-align:center;
+      float:left;
+      margin: 0 $marble-h-margin;
+      background-color: #e6e6e6;
+
+      &.col-1 { width:$marble-width; }
+      &.col-2 { width:#{(2*$marble-width+$marble-h-margin)} }
+      &.col-3 { width:#{(3*$marble-width+$marble-h-margin)} }
+
+      &.m-offset-1-right { margin-right: #{($marble-h-margin*2 + $marble-width)}; }
+      &.m-offset-1-left {  margin-left: #{($marble-h-margin*2 + $marble-width)}; }
+      &.m-offset-2-right { margin-right: #{($marble-h-margin*2 + 2*$marble-width)}; }
+      &.m-offset-2-left {  margin-left: #{($marble-h-margin*2 + 2*$marble-width)}; }
+
+    }
+  }
+
+}

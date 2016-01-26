@@ -1,0 +1,52 @@
+<div id="decode" class="">
+
+
+	<div class="btn btn-lg btn-primary"
+		 ng-mousedown="mouseDown()"
+		 ng-mouseup="mouseUp()"
+			>
+		.--. ..- ... ....
+	</div>
+
+	<!-- streams -->
+
+	<!-- this directive is like a stream of a marble diagram -->
+	<marble-diagram
+			title="Mouse Down"
+			stream="decode.mdStream"
+			marble-class="'m-offset-1-right col-1'"
+			static-symbol="d">
+	</marble-diagram>
+
+	<marble-diagram title="Mouse Down Timestamp"
+					stream="decode.mdtStream"
+					marble-class="'m-offset-1-right col-1'">
+	</marble-diagram>
+
+	<marble-diagram title="Mouse Up Timestamp"
+					stream="decode.mutStream"
+					marble-class="'m-offset-1-left col-1'">
+	</marble-diagram>
+
+	<marble-diagram class="start-offset-1"
+					title="Up/Down Time Diff"
+					stream="decode.mtdStream"
+					marble-class="'col-1'">
+	</marble-diagram>
+
+	<marble-diagram class="start-offset-1"
+					title="Mors Characters"
+					stream="decode.mcStream"
+					marble-class="'col-1'">
+	</marble-diagram>
+
+	<marble-diagram title="Mors Symbols"
+					stream="decode.msStream"
+					marble-class="'col-1'">
+	</marble-diagram>
+
+	<marble-diagram title="Translated char"
+					stream="decode.cStream"
+					marble-class="'col-1'">
+	</marble-diagram>
+</div>

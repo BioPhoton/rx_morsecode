@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="This is a project for testing the ng-drupal-7-services repo in github">
+    <meta name="author" content="Michael Hladky">
+
+    <title>-- --- .-. ... . -.-. --- -.. . / .-. -..-</title>
+
+    <!-- compiled css -->
+    <link href="assets/css/app.min.css" rel="stylesheet">
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="bower_components/rxjs/dist/rx.all.min.js"></script>
+    <script src="bower_components/rx-angular/dist/rx.angular.js"></script>
+
+    <script src="app/commons/services/services.morse.service.js"></script>
+    <script src="app/commons/marbleDiagram/marbleDiagram.directive.js"></script>
+
+    <script src="app/components/decode/decode.controller.js"></script>
+    <script src="app/app.controller.js"></script>
+    <script src="app/app.states.js"></script>
+    <script src="app/app.js"></script>
+    
+  </head>  
+  
+  <body ng-app="morsecode">
+  		<div ui-view></div>
+  </body>
+</html>
