@@ -1,7 +1,7 @@
 # RX-MORSECODE - Morse Code Decoder with Angular and Reactive Extensions
 
 This is a small project to learn the basic operators of rx.
-There is also a presentation available (here)[http://slides.com/michael_hladky/rx-and-ng]
+There is also a tiny presentation available [here](http://slides.com/michael_hladky/rx-and-ng).
 
 - code in decode.controller.js
 - cheat with decode.controller_v1.js
