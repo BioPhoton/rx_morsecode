@@ -1,2 +1,2 @@
-# rx_moursecode
-rx moursecode
+# rx_morsecode
+rx morsecode
